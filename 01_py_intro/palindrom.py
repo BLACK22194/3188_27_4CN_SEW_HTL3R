@@ -56,6 +56,7 @@ def get_dec_hex_palindrom(x: int) -> int:
             big = i
     return big
 
+
 def to_base(number: int, base: int) -> str:
     """
     :param number: Zahl im 10er-Syste,
