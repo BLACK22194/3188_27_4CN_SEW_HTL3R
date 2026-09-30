@@ -3,11 +3,9 @@ Modul-Dokumentation
 """
 # Metadaten zu dieser Datei:
 __author__ = "Mahdi Danesh"
-__example__ = "SEW4/UE01/01"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
+__example__ = "SEW4/UE01/02"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
 __date__ = "24.09.2026"
-__version__ = "1.2.0"
 __license__ = "GNU GPLv3"
-__status__ = "Released"
 
 
 def collatz_sequence(number: int) -> list[int]:
@@ -58,3 +56,10 @@ def collatz_sequence_p(number: int, p: int = 3) -> list[int]:
     else:
         new_number = number * p + 1
     return [number] + collatz_sequence_p(new_number, p)
+
+
+def main():
+    pass
+
+if __name__ == "__main__":
+    main()

@@ -18,9 +18,7 @@ True
 __author__ = "Mahdi Danesh"
 __example__ = "SEW4/UE01/01"  # Gegenstand/Übungsblatt/Aufgabe(Kapitel)
 __date__ = "24.09.2026"
-__version__ = "1.2.0"
 __license__ = "GNU GPLv3"
-__status__ = "Released"
 
 
 def is_palindrom(s: str) -> bool:
@@ -85,3 +83,11 @@ def to_base(number: int, base: int) -> str:
         number = number // base
     hexz = hexz[::-1]
     return hexz
+
+
+def main():
+    pass
+
+
+if __name__ == "__main__":
+    main()
